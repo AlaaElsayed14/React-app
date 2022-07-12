@@ -1,0 +1,56 @@
+.about{
+    background-color:#1abc9c;
+    color: #fff;
+    padding: 5rem 0;
+    position: relative;
+}
+.about h2{
+    font-size: 3.3rem;
+}
+.about .title .line{
+    position: absolute;
+    top: 10.2rem;
+    background-color: #fff;
+    height: .23rem;
+}
+
+.about .title .line1{
+    right: 39.3rem;
+}
+  
+.about .title .line2{
+    left: 39.3rem;
+}
+
+.about .title{
+    margin-bottom: 2rem;
+}
+.about p{
+    font-size: 1.25rem;
+    text-align: left;
+}
+
+@media (max-width:991px) {
+    .about .title .line1{
+        right: 17.5rem;
+    }
+      
+    .about .title .line2{
+        left: 17.5rem;
+    } 
+    
+}
+@media (max-width:575px) {
+    .about .title .line{
+        top: 10.3rem;
+    }
+    
+    .about .title .line1{
+        right: 4.5rem;
+    }
+      
+    .about .title .line2{
+        left: 4.5rem;
+    }  
+    
+  }

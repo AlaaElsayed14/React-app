@@ -1,0 +1,52 @@
+nav{
+    background-color: #2c3e50 !important;
+}
+
+nav .container{
+    padding: 1rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: .1rem;
+}
+.navbar-toggler{
+    background-color: #1abc9c !important;
+    padding: .5rem .3rem !important;
+    color: #fff !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-toggler .menu{
+    font-size: 1.2rem;
+    margin-right: .3rem;
+    text-transform: uppercase;
+}
+
+.navbar-icon {
+    display: inline-block;
+}
+.toggle-icon{
+    display: block;
+    width: 1.26rem;
+    height: .16rem;
+    background-color: #fff;
+    margin-bottom: .24rem;
+}
+
+.navbar-brand , .nav-link{
+    color: #fff  !important;
+}
+.navbar-brand{
+    font-size: 1.9rem !important;
+}
+
+.nav-item:hover .nav-link{
+    color: #1abc9c !important;
+}
+
+.nav-item{
+    margin-right: 1.6rem;
+}
+
+

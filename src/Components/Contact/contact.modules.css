@@ -1,0 +1,81 @@
+.contact{
+    padding: 5rem 0;
+    position: relative;
+}
+
+
+.contact .title .line{
+    position: absolute;
+    top: 10.2rem;
+    background-color: #2c3e50;
+    height: .23rem;
+}
+
+.contact .title .line1{
+    right: 39.3rem;
+}
+  
+.contact .title .line2{
+    left: 39.3rem;
+}
+
+.contact form{
+    width: 50%;
+    margin: auto;
+}
+.contact input , .contact textarea{
+    border: 0;
+}
+
+.contact input::placeholder , .contact textarea::placeholder{
+    font-size: 1.6rem;
+}
+
+.contact input{
+    padding: 3rem .5rem;
+}
+
+.form-group{
+    border-bottom: 1px solid rgba(99, 99, 99, 0.14);
+}
+
+.contact input:focus{
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0);
+    border-color: transparent;
+}
+
+.btn.form-btn{
+    padding: 1rem 2rem !important;
+    background-color:#1abc9c;
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+@media (max-width:991px) {
+    .contact .title .line1{
+        right: 17.5rem;
+    }
+      
+    .contact .title .line2{
+        left: 17.5rem;
+    } 
+    
+}
+@media (max-width:575px) {
+    .contact .title .line{
+        top: 10.3rem;
+    }
+    
+    .contact .title .line1{
+        right: 4.5rem;
+    }
+      
+    .contact .title .line2{
+        left: 4.5rem;
+    }  
+
+    .contact form{
+        width: 93%;
+    }
+    
+  }

@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root{
+  --main-color:#1abc9c;
+}
+
+.title{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.title h2{
+  font-size: 3.3rem;
+}
+.title .line{
+  display: inline-block;
+  width: 6rem;
+  height: .19rem;
+  position: absolute;
+  border-radius: .4rem;
+  -webkit-border-radius:;
+  -moz-border-radius:;
+  -ms-border-radius:;
+  -o-border-radius:;
+  bottom: 6.4rem;
+}
+
+.title i{
+  font-size: 1.9rem;
+}
+
+@media (max-width:575px) {
+  .portfolio .title .line{
+      top: 8rem;
+  }
+  
+  .portfolio .title .line1{
+      right: 4.5rem;
+  }
+    
+  .portfolio .title .line2{
+      left: 4.5rem;
+  }  
+  
+}
